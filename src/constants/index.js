@@ -1,7 +1,6 @@
 import {
     mobile,
     backend,
-    creator,
     web,
     javascript,
     typescript,
@@ -42,20 +41,16 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
+        title: "Frontend Developer",
         icon: web,
-    },
-    {
-        title: "React Native Developer",
-        icon: mobile,
     },
     {
         title: "Backend Developer",
         icon: backend,
     },
     {
-        title: "Content Creator",
-        icon: creator,
+        title: "Mobile Developer",
+        icon: mobile,
     },
 ];
 
@@ -116,83 +111,56 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
+        title: "VR Developer",
+        company_name: "The Full Room Studio",
         icon: meta,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "March 2015 - August 2016",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Created the projects pipelines and the tools to help the team to work more efficiently.",
+            "Collaborated with cross-functional teams including designers and product managers to create high-quality assets.",
+            "Implemented the vr animations and interactions.",
+            "Helped the company secure multiple contracts with major clients due to rapid prototyping.",
         ],
     },
-];
-
-const testimonials = [
     {
-        testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+        title: "Systems Analyst",
+        company_name: "Raymond James",
+        icon: shopify,
+        iconBg: "#383E56",
+        date: "December 2019 - March 2021",
+        points: [
+            "Participated in the migration from win7 to win10 and the deployment of the new company's image",
+            "Supported 1,500+ end-users with connectivity expertise in a Windows 10 environment",
+            "Collaborated with multiple team to secure the transition to work from home",
+            "Tested, deployed and maintained the company's financial applications",
+        ],
     },
     {
-        testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+        title: "Systems Analyst",
+        company_name: "Domtar",
+        icon: tesla,
+        iconBg: "#E6DEDD",
+        date: "March 2021 - August 2021",
+        points: [
+            "Managed the migration from win7 to win10 and the deployment of the new company's image",
+            "Supported 6,000+ end-users across Canada and the US with connectivity expertise in a Windows 10 environment",
+            "Performed analysis including investigations, documentation, recommendation, and problem-solving",
+        ],
     },
     {
-        testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+        title: "Senior Systems Analyst",
+        company_name: "Corus Entertainment",
+        icon: starbucks,
+        iconBg: "#383E56",
+        date: "August 2021 - Present",
+        points: [
+            "Managed the back to work in the office setup for the Montreal office",
+            "Collaborated with the system architect team to migrate the phone system from Skype to MS Teams",
+            "Helped automate the onboarding process",
+            "Wrote multiple technical manuals for the IT team and the end-users",
+            "Oversaw first successful rollout of new software functionality",
+        ],
     },
 ];
 
@@ -262,4 +230,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
