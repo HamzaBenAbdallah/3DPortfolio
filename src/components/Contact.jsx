@@ -17,8 +17,6 @@ const Contact = () => {
 
     const [loading, setLoading] = useState(false);
 
-    console.log(import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY);
-
     const handleChange = (e) => {
         const { target } = e;
         const { name, value } = target;
