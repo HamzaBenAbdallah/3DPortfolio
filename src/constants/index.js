@@ -11,17 +11,17 @@ import {
     tailwind,
     nodejs,
     mongodb,
+    threejs,
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    Ecommerce,
+    Entertainmentcenter,
+    Portfolio,
+    corus,
+    domtar,
+    raymondjames,
+    tfrs,
 } from "../assets";
 
 export const navLinks = [
@@ -113,7 +113,7 @@ const experiences = [
     {
         title: "VR Developer",
         company_name: "The Full Room Studio",
-        icon: meta,
+        icon: tfrs,
         iconBg: "#E6DEDD",
         date: "March 2015 - August 2016",
         points: [
@@ -126,8 +126,8 @@ const experiences = [
     {
         title: "Systems Analyst",
         company_name: "Raymond James",
-        icon: shopify,
-        iconBg: "#383E56",
+        icon: raymondjames,
+        iconBg: "#E6DEDD",
         date: "December 2019 - March 2021",
         points: [
             "Participated in the migration from win7 to win10 and the deployment of the new company's image",
@@ -139,7 +139,7 @@ const experiences = [
     {
         title: "Systems Analyst",
         company_name: "Domtar",
-        icon: tesla,
+        icon: domtar,
         iconBg: "#E6DEDD",
         date: "March 2021 - August 2021",
         points: [
@@ -151,8 +151,8 @@ const experiences = [
     {
         title: "Senior Systems Analyst",
         company_name: "Corus Entertainment",
-        icon: starbucks,
-        iconBg: "#383E56",
+        icon: corus,
+        iconBg: "#E6DEDD",
         date: "August 2021 - Present",
         points: [
             "Managed the back to work in the office setup for the Montreal office",
@@ -166,67 +166,80 @@ const experiences = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Entertainment Center",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Web application that enables users to search for movies, create a watchlist, and view movie details.\n Users can create accounts and login to save their search, accounts are encrypted using bcrypt and stored in a MongoDB database.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
+            },
+            {
+                name: "express",
+                color: "black-text-gradient",
             },
             {
                 name: "mongodb",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "Styled Components",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: Entertainmentcenter,
+        website_link: "https://entertainmentcenter.netlify.app/",
+        source_code_link:
+            "https://github.com/HamzaBenAbdallah/entertainmentcenter",
     },
     {
-        name: "Job IT",
+        name: "Portfolio",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Portolio website to showcase my work and skills. Built using React, ThreeJS, and TailwindCSS.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
-                color: "green-text-gradient",
+                name: "threejs",
+                color: "black-text-gradient",
             },
             {
-                name: "scss",
+                name: "tailwindcss",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: Portfolio,
+        website_link: "https://hamzabenabdallah.dev/",
+        source_code_link: "https://github.com/HamzaBenAbdallah/3DPortfolio",
     },
     {
-        name: "Trip Guide",
+        name: "E-Commerce",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "An E-Commerce website with filters, shopping cart, checkout, and payment system. ",
         tags: [
             {
-                name: "nextjs",
+                name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "express",
+                color: "black-text-gradient",
+            },
+            {
+                name: "mongodb",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "Styled Components",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: Ecommerce,
+        website_link: "https://groupecommerce.netlify.app/",
+        source_code_link:
+            "https://github.com/HamzaBenAbdallah/E-Commerce-group-project/",
     },
 ];
 
