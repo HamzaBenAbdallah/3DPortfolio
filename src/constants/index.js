@@ -117,7 +117,7 @@ const experiences = [
         iconBg: "#E6DEDD",
         date: "March 2015 - August 2016",
         points: [
-            "Created the projects pipelines and the tools to help the team to work more efficiently.",
+            "Created the project's pipelines and the tools to help the team to work more efficiently.",
             "Collaborated with cross-functional teams including designers and product managers to create high-quality assets.",
             "Implemented the vr animations and interactions.",
             "Helped the company secure multiple contracts with major clients due to rapid prototyping.",
@@ -130,10 +130,10 @@ const experiences = [
         iconBg: "#E6DEDD",
         date: "December 2019 - March 2021",
         points: [
-            "Participated in the migration from win7 to win10 and the deployment of the new company's image",
-            "Supported 1,500+ end-users with connectivity expertise in a Windows 10 environment",
-            "Collaborated with multiple team to secure the transition to work from home",
-            "Tested, deployed and maintained the company's financial applications",
+            "Participated in the migration from win7 to win10 and the deployment of the new company's image.",
+            "Supported 1,500+ end-users with connectivity expertise in a Windows 10 environment.",
+            "Collaborated with multiple teams to secure the transition to work from home.",
+            "Tested, deployed and maintained the company's financial applications.",
         ],
     },
     {
@@ -143,9 +143,9 @@ const experiences = [
         iconBg: "#E6DEDD",
         date: "March 2021 - August 2021",
         points: [
-            "Managed the migration from win7 to win10 and the deployment of the new company's image",
-            "Supported 6,000+ end-users across Canada and the US with connectivity expertise in a Windows 10 environment",
-            "Performed analysis including investigations, documentation, recommendation, and problem-solving",
+            "Managed the migration from win7 to win10 and the deployment of the new company's image.",
+            "Supported 6,000+ end-users across Canada and the US with connectivity expertise in a Windows 10 environment.",
+            "Performed analysis including investigations, documentation, recommendation, and problem-solving.",
         ],
     },
     {
@@ -155,11 +155,11 @@ const experiences = [
         iconBg: "#E6DEDD",
         date: "August 2021 - Present",
         points: [
-            "Managed the back to work in the office setup for the Montreal office",
-            "Collaborated with the system architect team to migrate the phone system from Skype to MS Teams",
-            "Helped automate the onboarding process",
-            "Wrote multiple technical manuals for the IT team and the end-users",
-            "Oversaw first successful rollout of new software functionality",
+            "Managed the back to work in the office setup for the Montreal office.",
+            "Collaborated with the system architect team to migrate the phone system from Skype to MS Teams.",
+            "Helped automate the onboarding process.",
+            "Wrote multiple technical manuals for the IT team and the end-users.",
+            "Oversaw first successful rollout of new software functionality.",
         ],
     },
 ];
