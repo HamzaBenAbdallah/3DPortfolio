@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github, maximize } from "../assets";
+import { repo, website } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -14,47 +14,53 @@ const ProjectCard = ({
     website_link,
     source_code_link,
 }) => {
+    const hover = false;
+
     return (
         <div
             onClick={() => window.open(website_link)}
             className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full cursor-pointer"
         >
-            <div className="relative w-full h-[230px]">
+            <div className=" w-full h-[230px]">
                 <img
                     src={image}
                     alt="project_image"
                     className="w-full h-full object-cover rounded-2xl"
                 />
-                <div className="absolute inset-0 flex justify-end m-3 card-img_hover gap-2">
+            </div>
+
+            <div className="mt-5 relative">
+                <h3 className="text-white font-bold text-[24px] mb-3">
+                    {name}
+                </h3>
+
+                <div className="absolute inset-0 flex justify-end">
                     <div>
                         <div
                             onClick={() => window.open(website_link)}
-                            className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                            className="w-10 h-10  flex justify-center items-center cursor-pointer"
                         >
                             <img
-                                src={maximize}
+                                src={website}
                                 alt="website"
-                                className="w-1/2 h-1/2 object-contain"
+                                className="h-7 w-7 hover:opacity-70"
                             />
                         </div>
                     </div>
                     <div>
                         <div
                             onClick={() => window.open(source_code_link)}
-                            className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                            className=" w-10 h-10 flex justify-center items-center cursor-pointer"
                         >
                             <img
-                                src={github}
+                                src={repo}
                                 alt="source code"
-                                className="w-1/2 h-1/2 object-contain"
+                                className="h-7 w-7 hover:opacity-70"
                             />
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div className="mt-5">
-                <h3 className="text-white font-bold text-[24px]">{name}</h3>
                 <p
                     className="mt-2 text-secondary text-[14px]"
                     style={{ whiteSpace: "pre-line" }}

@@ -166,7 +166,7 @@ const experiences = [
 
 const projects = [
     {
-        name: "Entertainment Center",
+        name: "E-Center",
         description:
             "Web application that enables users to search for movies, create a watchlist, and view movie details.\n Users can create accounts and login to save their search, accounts are encrypted using bcrypt and stored in a MongoDB database.",
         tags: [
