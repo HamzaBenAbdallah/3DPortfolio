@@ -45,6 +45,16 @@ const Navbar = () => {
                             <a href={`#${link.id}`}>{link.title}</a>
                         </li>
                     ))}
+                    <li
+                        className={`text-secondary hover:text-white text-[18px] font-medium cursor-pointer`}
+                    >
+                        <a
+                            href="https://drive.google.com/file/d/1X1OLs49hYtQjhlNKdgH8YwJpOakTTbsn/view"
+                            target="_blank"
+                        >
+                            Resume
+                        </a>
+                    </li>
                 </ul>
                 <div className="sm:hidden flex flex-1 justify-end items-center">
                     <img
