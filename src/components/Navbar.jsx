@@ -49,7 +49,7 @@ const Navbar = () => {
                         className={`text-secondary hover:text-white text-[18px] font-medium cursor-pointer`}
                     >
                         <a
-                            href="https://drive.google.com/file/d/1X1OLs49hYtQjhlNKdgH8YwJpOakTTbsn/view"
+                            href="https://drive.google.com/file/d/1OgJm99PwLCMIBmqj59TxONo7XUMixEXL/view"
                             target="_blank"
                         >
                             Resume
