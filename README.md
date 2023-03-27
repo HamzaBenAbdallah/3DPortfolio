@@ -4,7 +4,7 @@
 
 ## Main information
 
-React based portfolio project to showcase my work
+React based portfolio project to showcase my work, [visit here](https://hamzabenabdallah.dev/)
 
 -   Technologies used:
     -   React
