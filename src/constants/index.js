@@ -195,7 +195,7 @@ const projects = [
     {
         name: "Portfolio",
         description:
-            "Portolio website to showcase my work and skills. Built using React, ThreeJS, and TailwindCSS.",
+            "Portfolio website to showcase my work and skills. Built using React, ThreeJS, and TailwindCSS.",
         tags: [
             {
                 name: "react",
