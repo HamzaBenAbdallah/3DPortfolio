@@ -1,4 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
+import ReactGA from "react-ga";
 import {
     About,
     Contact,
@@ -11,6 +12,8 @@ import {
 } from "./components";
 
 const App = () => {
+    ReactGA.initialize(VITE_APP_TRACKING_ID);
+    ReactGA.pageview(window.location.pathname);
     return (
         <BrowserRouter>
             <div className="relative z-0 bg-primary">
