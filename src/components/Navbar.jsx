@@ -85,6 +85,16 @@ const Navbar = () => {
                                     <a href={`#${link.id}`}>{link.title}</a>
                                 </li>
                             ))}
+                            <li
+                                className={`text-secondary hover:text-white text-[18px] font-medium cursor-pointer`}
+                            >
+                                <a
+                                    href="https://drive.google.com/file/d/1OgJm99PwLCMIBmqj59TxONo7XUMixEXL/view"
+                                    target="_blank"
+                                >
+                                    Resume
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
