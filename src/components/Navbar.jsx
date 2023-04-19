@@ -45,7 +45,7 @@ const Navbar = () => {
                             <a href={`#${link.id}`}>{link.title}</a>
                         </li>
                     ))}
-                    <li
+                    {/* <li
                         className={`text-secondary hover:text-white text-[18px] font-medium cursor-pointer`}
                     >
                         <a
@@ -54,7 +54,7 @@ const Navbar = () => {
                         >
                             Resume
                         </a>
-                    </li>
+                    </li> */}
                 </ul>
                 <div className="sm:hidden flex flex-1 justify-end items-center">
                     <img
@@ -85,7 +85,7 @@ const Navbar = () => {
                                     <a href={`#${link.id}`}>{link.title}</a>
                                 </li>
                             ))}
-                            <li
+                            {/* <li
                                 className={`text-secondary hover:text-white text-[18px] font-medium cursor-pointer`}
                             >
                                 <a
@@ -94,7 +94,7 @@ const Navbar = () => {
                                 >
                                     Resume
                                 </a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
