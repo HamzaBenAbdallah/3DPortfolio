@@ -45,16 +45,16 @@ const Navbar = () => {
                             <a href={`#${link.id}`}>{link.title}</a>
                         </li>
                     ))}
-                    {/* <li
+                    <li
                         className={`text-secondary hover:text-white text-[18px] font-medium cursor-pointer`}
                     >
                         <a
-                            href="https://drive.google.com/file/d/1OgJm99PwLCMIBmqj59TxONo7XUMixEXL/view"
+                            href="https://drive.google.com/file/d/1OgJm99PwLCMIBmqj59TxONo7XUMixEXL/view?usp=sharing"
                             target="_blank"
                         >
                             Resume
                         </a>
-                    </li> */}
+                    </li>
                 </ul>
                 <div className="sm:hidden flex flex-1 justify-end items-center">
                     <img
@@ -85,16 +85,16 @@ const Navbar = () => {
                                     <a href={`#${link.id}`}>{link.title}</a>
                                 </li>
                             ))}
-                            {/* <li
+                            <li
                                 className={`text-secondary hover:text-white text-[18px] font-medium cursor-pointer`}
                             >
                                 <a
-                                    href="https://drive.google.com/file/d/1OgJm99PwLCMIBmqj59TxONo7XUMixEXL/view"
+                                    href="https://drive.google.com/file/d/1OgJm99PwLCMIBmqj59TxONo7XUMixEXL/view?usp=sharing"
                                     target="_blank"
                                 >
                                     Resume
                                 </a>
-                            </li> */}
+                            </li>
                         </ul>
                     </div>
                 </div>

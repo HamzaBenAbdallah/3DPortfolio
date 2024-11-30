@@ -8,30 +8,51 @@ import close from "./close.svg";
 import repo from "./repo.svg";
 import website from "./website.svg";
 
-import css from "./tech/css.png";
+import ad from "./tech/ad.svg"
+import ansible from "./tech/ansible.svg"
+import bash from "./tech/bash.svg"
+import debian from "./tech/debian.svg"
+import exchange from "./tech/exchange.svg"
+import m365 from "./tech/m365.svg"
+import powershell from "./tech/powershell.svg"
+import prometheus from "./tech/prometheus.svg"
+import python from "./tech/python.svg"
+import rhel from "./tech/rhel.svg"
+import sccm from "./tech/sccm.svg"
+import sharepoint from "./tech/sharepoint.svg"
+import terraform from "./tech/terraform.svg"
+import ubuntu from "./tech/ubuntu.svg"
+import veeam from "./tech/veeam.svg"
+import vsphere from "./tech/vsphere.png"
+import windows from "./tech/windows.svg"
+import zabbix from "./tech/zabbix.svg"
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 
 import corus from "./company/corus.svg";
 import domtar from "./company/domtar.png";
 import raymondjames from "./company/raymondjames.svg";
 import tfrs from "./company/tfrs.png";
 
-import Ecommerce from "./projects/Ecommerce.png";
-import Entertainmentcenter from "./projects/Entertainmentcenter.png";
-import Portfolio from "./projects/Portfolio.png";
-
 export {
+    ad,
+    ansible,
+    bash,
+    debian,
+    exchange,
+    m365,
+    powershell,
+    prometheus,
+    python,
+    rhel,
+    sccm,
+    sharepoint,
+    terraform,
+    ubuntu,
+    veeam,
+    vsphere,
+    windows,
+    zabbix,
     logo,
     backend,
     creator,
@@ -39,22 +60,8 @@ export {
     web,
     menu,
     close,
-    css,
     docker,
-    figma,
     git,
-    html,
-    javascript,
-    mongodb,
-    nodejs,
-    reactjs,
-    redux,
-    tailwind,
-    typescript,
-    threejs,
-    Ecommerce,
-    Entertainmentcenter,
-    Portfolio,
     corus,
     domtar,
     raymondjames,

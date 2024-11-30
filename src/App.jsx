@@ -6,13 +6,8 @@ import {
     Hero,
     Navbar,
     Tech,
-    Works,
     StarsCanvas,
 } from "./components";
-import ReactGA from "react-ga4";
-
-ReactGA.initialize(import.meta.env.VITE_APP_TRACKING_ID);
-ReactGA.send({ hitType: "pageview", page: "/" });
 
 const App = () => {
     return (
@@ -23,9 +18,8 @@ const App = () => {
                     <Hero />
                 </div>
                 <About />
-                <Works />
-                <Tech />
                 <Experience />
+                <Tech />
                 <div className="relative z-0">
                     <Contact />
                     <StarsCanvas />

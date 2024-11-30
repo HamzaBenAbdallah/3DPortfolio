@@ -1,23 +1,27 @@
 import {
+    ad,
+    ansible,
+    bash,
+    debian,
+    exchange,
+    m365,
+    powershell,
+    prometheus,
+    python,
+    rhel,
+    sccm,
+    sharepoint,
+    terraform,
+    ubuntu,
+    veeam,
+    vsphere,
+    windows,
+    zabbix,
     mobile,
     backend,
     web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    threejs,
     git,
-    figma,
     docker,
-    Ecommerce,
-    Entertainmentcenter,
-    Portfolio,
     corus,
     domtar,
     raymondjames,
@@ -41,86 +45,130 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Frontend Developer",
+        title: "Systems Administration",
         icon: web,
     },
     {
-        title: "Backend Developer",
+        title: "Network Administration",
         icon: backend,
     },
     {
-        title: "Mobile Developer",
+        title: "Software Engineering",
         icon: mobile,
     },
 ];
 
 const technologies = [
     {
-        name: "HTML 5",
-        icon: html,
+        name: "vsphere",
+        icon: vsphere,
     },
     {
-        name: "CSS 3",
-        icon: css,
+        name: "windows",
+        icon: windows,
     },
     {
-        name: "JavaScript",
-        icon: javascript,
+        name: "ad",
+        icon: ad,
     },
     {
-        name: "TypeScript",
-        icon: typescript,
+        name: "m365",
+        icon: m365,
     },
     {
-        name: "React JS",
-        icon: reactjs,
+        name: "exchange",
+        icon: exchange,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
+        name: "sccm",
+        icon: sccm,
     },
     {
-        name: "Tailwind CSS",
-        icon: tailwind,
+        name: "sharepoint",
+        icon: sharepoint,
     },
     {
-        name: "Node JS",
-        icon: nodejs,
+        name: "powershell",
+        icon: powershell,
     },
     {
-        name: "MongoDB",
-        icon: mongodb,
+        name: "ubuntu",
+        icon: ubuntu,
     },
     {
-        name: "Three JS",
-        icon: threejs,
+        name: "debian",
+        icon: debian,
     },
     {
-        name: "git",
-        icon: git,
+        name: "rhel",
+        icon: rhel,
     },
     {
-        name: "figma",
-        icon: figma,
+        name: "bash",
+        icon: bash,
+    },
+    {
+        name: "python",
+        icon: python,
     },
     {
         name: "docker",
         icon: docker,
     },
+    {
+        name: "ansible",
+        icon: ansible,
+    },
+    {
+        name: "terraform",
+        icon: terraform,
+    },
+    {
+        name: "prometheus",
+        icon: prometheus,
+    },
+    {
+        name: "veeam",
+        icon: veeam,
+    },
+    {
+        name: "zabbix",
+        icon: zabbix,
+    }, 
+    {
+        name: "git",
+        icon: git,
+    },
 ];
 
 const experiences = [
     {
-        title: "VR Developer",
-        company_name: "The Full Room Studio",
-        icon: tfrs,
+        title: "System Analyst",
+        company_name: "Corus Entertainment",
+        icon: corus,
         iconBg: "#E6DEDD",
-        date: "March 2015 - August 2016",
+        date: "August 2021 - Present",
         points: [
-            "Created the project's pipelines and the tools to help the team to work more efficiently.",
-            "Collaborated with cross-functional teams including designers and product managers to create high-quality assets.",
-            "Implemented the vr animations and interactions.",
-            "Helped the company secure multiple contracts with major clients due to rapid prototyping.",
+            "Managed vSphere infrastructure by configuring virtual networks, datastores and deploying virtual machines.",
+            "Implemented and monitored backups and recovery using Veeam and Zabbix.",
+            "Collaborated with the network team to migrate fromCisco AnyConnect to Global Protect.",
+            "Maintained file server, expanded storage and managed permissions.",
+            "Developed and implemented automation scripts using Bash, Ansible and Terraform to streamline configuration and validation for Linux Systems.",
+            "Deployed a Grafana and Prometheus stack to monitor performance metrics for VMs and vCenter.",
+            "Wrote multiple technical manuals for the IT team and the end-users.",
+        ],
+    },
+    {
+        title: "System Analyst",
+        company_name: "Domtar",
+        icon: domtar,
+        iconBg: "#E6DEDD",
+        date: "March 2021 - August 2021",
+        points: [
+            "Created and administered Users & Groups via Active Directory.",
+            "Managed migration from Win7 to Win10.",
+            "Supported 6,000+ end-users across Canada and the US.",
+            "Performed analysis including investigations, documentation, recommendation, and problem-solving.",
         ],
     },
     {
@@ -130,117 +178,26 @@ const experiences = [
         iconBg: "#E6DEDD",
         date: "December 2019 - March 2021",
         points: [
-            "Participated in the migration from win7 to win10 and the deployment of the new company's image.",
-            "Supported 1,500+ end-users with connectivity expertise in a Windows 10 environment.",
+            "Coordinated and participated in the migration from win7 to win10.",
+            "Provided end-user support for Tier 2 and Tier 3 issues, documented resolutions and delivered training on new systems.",
             "Collaborated with multiple teams to secure the transition to work from home.",
-            "Tested, deployed and maintained the company's financial applications.",
         ],
     },
     {
-        title: "Systems Analyst",
-        company_name: "Domtar",
-        icon: domtar,
+        title: "Systems Administrator",
+        company_name: "The Full Room Studio",
+        icon: tfrs,
         iconBg: "#E6DEDD",
-        date: "March 2021 - August 2021",
+        date: "March 2015 - August 2016",
         points: [
-            "Managed the migration from win7 to win10 and the deployment of the new company's image.",
-            "Supported 6,000+ end-users across Canada and the US with connectivity expertise in a Windows 10 environment.",
-            "Performed analysis including investigations, documentation, recommendation, and problem-solving.",
-        ],
-    },
-    {
-        title: "Senior Systems Analyst",
-        company_name: "Corus Entertainment",
-        icon: corus,
-        iconBg: "#E6DEDD",
-        date: "August 2021 - Present",
-        points: [
-            "Managed the back to work in the office setup for the Montreal office.",
-            "Collaborated with the system architect team to migrate the phone system from Skype to MS Teams.",
-            "Helped automate the onboarding process.",
-            "Wrote multiple technical manuals for the IT team and the end-users.",
-            "Oversaw first successful rollout of new software functionality.",
+            "Created and administered Users & Groups via Active Directory.",
+            "Configured and deployed workstations as well as render servers using Windows Deployment Services.",
+            "Collaborated with management to optimize our systems to support staff scaling from 10 employees to 50+.",
+            "Oversaw network implementation after office move.",
+            "Carried out troubleshooting processes and diagnosed issues related to hardware, software and network.",
+            "Documented company systems and processes into a knowledge base.",
         ],
     },
 ];
 
-const projects = [
-    {
-        name: "E-Center",
-        description:
-            "Web application that enables users to search for movies, create a watchlist, and view movie details.\n Users can create accounts and login to save their search, accounts are encrypted using bcrypt and stored in a MongoDB database.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "express",
-                color: "black-text-gradient",
-            },
-            {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "Styled Components",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: Entertainmentcenter,
-        website_link: "https://entertainmentcenter.netlify.app/",
-        source_code_link:
-            "https://github.com/HamzaBenAbdallah/entertainmentcenter",
-    },
-    {
-        name: "Portfolio",
-        description:
-            "Portfolio website to showcase my work and skills. Built using React, ThreeJS, and TailwindCSS.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "threejs",
-                color: "black-text-gradient",
-            },
-            {
-                name: "tailwindcss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: Portfolio,
-        website_link: "https://hamzabenabdallah.dev/",
-        source_code_link: "https://github.com/HamzaBenAbdallah/3DPortfolio",
-    },
-    {
-        name: "E-Commerce",
-        description:
-            "An E-Commerce website with filters, shopping cart, checkout, and payment system. ",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "express",
-                color: "black-text-gradient",
-            },
-            {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "Styled Components",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: Ecommerce,
-        website_link: "https://groupecommerce.netlify.app/",
-        source_code_link:
-            "https://github.com/HamzaBenAbdallah/E-Commerce-group-project/",
-    },
-];
-
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences };

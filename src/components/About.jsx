@@ -43,12 +43,9 @@ const About = () => {
                 variants={fadeIn("", "", 0.1, 1)}
                 className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
             >
-                I am a full stack software engineer with a passion for building
-                applications that are both functional and beautiful. I have
-                experience with a wide range of technologies and frameworks,
-                including React, TypeScript, Node, Express, MongoDB, and more. I
-                am currently looking for a full time position as a software
-                engineer.
+                I am an experienced System Administrator with a strong background in both Windows and Linux environments focusing on infrastructure management, virtualization, networks and automation.
+                <br />
+                I am passionate about leveraging cutting-edge technologies to streamline operations and enhance systems performance.
             </motion.p>
 
             <div className="mt-20 flex flex-wrap gap-10 justify-center mb-10">
