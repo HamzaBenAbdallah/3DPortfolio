@@ -150,6 +150,7 @@ const experiences = [
         date: "August 2021 - Present",
         points: [
             "Managed vSphere infrastructure by configuring virtual networks, datastores and deploying virtual machines.",
+            "Created and administered Users & Groups via Entra ID and Intune.",
             "Implemented and monitored backups and recovery using Veeam and Zabbix.",
             "Collaborated with the network team to migrate fromCisco AnyConnect to Global Protect.",
             "Maintained file server, expanded storage and managed permissions.",
@@ -194,7 +195,7 @@ const experiences = [
             "Configured and deployed workstations as well as render servers using Windows Deployment Services.",
             "Collaborated with management to optimize our systems to support staff scaling from 10 employees to 50+.",
             "Oversaw network implementation after office move.",
-            "Carried out troubleshooting processes and diagnosed issues related to hardware, software and network.",
+            "Carried out troubleshooting processes and diagnosed issues related to hardware, software and networks.",
             "Documented company systems and processes into a knowledge base.",
         ],
     },
